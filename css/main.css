@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}header{
+    height: 90px;
+    width: 100%;
+    background-color: antiquewhite;
+}.logo h1{
+    float: left;
+    padding: 0px 10px;
+    color: black;
+    margin: left 3px;
+    font-size: 60px;
+    font-weight:  900px;
+    text-shadow: 3px 3px 3px rgba(253, 6, 6, 0.2);
+}.logo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 25px;
+
+}.search{
+    float:right;
+    margin:right 10px;
+    margin-top: 20px;
+}.search_input{
+    padding: 6px;
+    color: black;
+    width: 150px;
+    font-size: 16px;
+    border: 1px solid #111;
+    margin-top: 5px;
+
+}.buttun_search{
+    padding: 5px;
+    color: azure;
+    background-color: rgb(89, 89, 188);
+    border-radius: 5px;
+    cursor: pointer;
+}nav{
+    width: 100%;
+    height: 45px;
+    background-color: azure;
+    border-bottom: 3px solid #dfdadf;
+}.social ul{
+    list-style: none;
+    margin-left: 20px;
+}.social ul li{
+    float: left;
+    padding: 5px 10px;
+    margin-top: 5px;
+}.social ul li a{
+    color: rgb(87, 86, 86);
+}.social ul li a:hover{
+    color: blue;
+}.section ul{
+    list-style: none;
+}.section ul li{
+    float:right;
+    padding: 5px 3px;
+    margin-left: 5px;
+}.section ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 5px 3px;
+    border-radius: 5px;
+}.section ul li a:hover{
+    background-color: #5d4040;
+    color: white;
+}.section ul li a.jew:hover{
+    background-color: #d4b30c;
+    color: rgb(22, 2, 2);
+}.last_post{
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 4px solid white ;
+}.last_post h4 {
+    float: right;
+    color: #080808;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 50px;
+}.last_post ul{
+    list-style: none;
+    margin: 2px;
+    padding: 3px;
+}.last_post .span_img img{
+    float: right;
+    width: 30px;    
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 15px;
+}.cart ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}.cart ul li{
+    display: inline-block;
+    margin-left: 15px;
+    padding: 2px;
+    font-size: 24px;
+}.cart ul li a{
+    color: black;
+}.cart ul li a:hover{
+    color: rgb(170, 220, 245);
+    
+}.cart_icon{
+    position: relative;
+    display: inline-block;
+}.cart-count{
+ position:absolute;
+top:-8px;
+right: -8px;
+background-color: #ff0000;
+color: #fff;
+padding: 4px 6px;
+border-radius: 50%;
+font-size: 12px;
+}
+/*بداية تنسيق المنتجات (PRODUCTS)
+*/
+main{
+    display: flex;
+    flex-wrap: wrap;
+}.project{
+    position: relative;
+    margin: 10px;
+    margin-top: 50px;
+    width: 200;
+    padding: 20px;
+    border: 1px solid;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 1) ;
+    margin-bottom: 40px;
+}.project a{
+    text-decoration: none;
+    color: #080808;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 4px;
+
+}.project_img{
+    text-align:center ;
+}.project_img img{
+    width: 180px;
+    height: 150px;
+    border-radius: 30px;
+}.project_img:hover{
+    opacity: 0.7;
+}.project_section{
+    margin-top: 5px;
+    background-color: #cceeee;
+    float: right;
+    border: solid  #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 2);
+}.project_name {
+    margin-top: 10px;
+    text-align: center;
+}.project_price{
+    text-align: center;
+    margin-top: 5px;
+}.project_price a{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}.project_description{
+    text-align: center;
+    margin-top: 10px;
+}.project_description i{
+    margin: 5px;
+    color: black;
+}.qty_input{
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 15px;
+}.qty_count_mins{
+    background-color: #ccc;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}.input[type="number"]{
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 4px;
+}.qty_count_add{
+    background-color: #ccc;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}.add_to_cart{
+    width: 100%;
+    height: 35px;
+    background-color: #007bff;
+    margin-top: 10px;
+    padding: 10px 29px;
+    cursor: pointer;
+}.add_to_cart:hover{
+    background-color: #011c38;
+    
+}.unavalible{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    transform: rotate(-25deg);
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    padding: 5px 5px;
+    background-color: #ff0000;
+    border: 1px solid rgb(129, 2, 2);
+    
+}
+
